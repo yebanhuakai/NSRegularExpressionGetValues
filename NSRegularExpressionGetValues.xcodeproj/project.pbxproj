@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45A39C311F985DCD002AB26A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A39C301F985DCD002AB26A /* main.m */; };
+		45A39C3C1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A39C3B1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		45A39C2D1F985DCD002AB26A /* NSRegularExpressionGetValues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSRegularExpressionGetValues; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A39C301F985DCD002AB26A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45A39C3A1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+SHY_GetValues.h"; sourceTree = "<group>"; };
+		45A39C3B1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+SHY_GetValues.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				45A39C301F985DCD002AB26A /* main.m */,
+				45A39C3A1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.h */,
+				45A39C3B1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.m */,
 			);
 			path = NSRegularExpressionGetValues;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A39C311F985DCD002AB26A /* main.m in Sources */,
+				45A39C3C1F985E58002AB26A /* NSRegularExpression+SHY_GetValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
